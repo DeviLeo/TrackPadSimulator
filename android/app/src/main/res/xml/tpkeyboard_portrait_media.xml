@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0dp"
+    android:verticalGap="0dp"
+    android:keyHeight="50dp"
+    android:keyWidth="25%p" >
+
+    <!-- 
+		SYSTEM	: SHUTDOWN RESTART SLEEP LOCK
+    	BROWSER	: FAVORITES SEARCH STOP HOME REFRESH BACK FORWARD
+    	VOLUME	: MUTE DOWN UP
+    	MEDIA	: STOP PLAY/PAUSE PREV NEXT
+     	LAUNCH	: MAIL MEDIA APP1 APP2
+     			  ABC 12# Fn NUMPAD
+     			  Hide Keyboard
+     -->
+    <!-- SYSTEM : SHUTDOWN RESTART SLEEP LOCK -->
+    <Row>
+        <Key android:codes="0xE3"
+            android:keyLabel="@string/kk_shutdown"
+            android:keyEdgeFlags="left"/>
+        <Key android:codes="0xE2"
+            android:keyLabel="@string/kk_restart"/>
+        <Key android:codes="0xE1"
+            android:keyLabel="@string/kk_sleep"/>
+        <Key android:codes="0xE0"
+            android:keyLabel="@string/kk_lock_screen"/>
+    </Row>
+    <!-- BROWSER : FAVORITES SEARCH STOP HOME REFRESH BACK FORWARD -->
+    <Row android:keyWidth="14%p">
+        <Key
+            android:codes="0xAB"
+            android:keyLabel="@string/kk_browser_favorites"
+            android:keyEdgeFlags="left"
+            android:horizontalGap="1%p" />
+        <Key
+            android:codes="0xAA"
+            android:keyLabel="@string/kk_browser_search" />
+        <Key
+            android:codes="0xA9"
+            android:keyLabel="@string/kk_browser_stop" />
+        <Key
+            android:codes="0xAC"
+            android:keyLabel="@string/kk_browser_home" />
+        <Key
+            android:codes="0xA8"
+            android:keyLabel="@string/kk_browser_refresh" />
+        <Key
+            android:codes="0xA6"
+            android:keyLabel="@string/kk_browser_back" />
+        <Key
+            android:codes="0xA7"
+            android:keyLabel="@string/kk_browser_forward"
+            android:keyEdgeFlags="right"/>
+    </Row>
+    <!-- VOLUME : MUTE DOWN UP -->
+    <Row android:keyWidth="32%p">
+        <Key
+            android:codes="0xAD"
+            android:keyLabel="@string/kk_volume_mute"
+            android:keyEdgeFlags="left"
+            android:horizontalGap="2%p" />
+        <Key
+            android:codes="0xAE"
+            android:keyLabel="@string/kk_volume_down" />
+        <Key
+            android:codes="0xAF"
+            android:keyLabel="@string/kk_volume_up"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <!-- MEDIA : STOP PLAY/PAUSE PREV NEXT -->
+    <Row>
+        <Key
+            android:codes="0xB2"
+            android:keyLabel="@string/kk_media_stop"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="0xB3"
+            android:keyLabel="@string/kk_media_play_pause" />
+        <Key
+            android:codes="0xB1"
+            android:keyLabel="@string/kk_media_prev_track" />
+        <Key
+            android:codes="0xB0"
+            android:keyLabel="@string/kk_media_next_track"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <!-- LAUNCH : MAIL MEDIA APP1 APP2 -->
+    <Row>
+        <Key
+            android:codes="0xB4"
+            android:keyLabel="@string/kk_launch_mail"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="0xB5"
+            android:keyLabel="@string/kk_launch_media_select" />
+        <Key
+            android:codes="0xB6"
+            android:keyLabel="@string/kk_launch_app1" />
+        <Key
+            android:codes="0xB7"
+            android:keyLabel="@string/kk_launch_app2"
+            android:keyEdgeFlags="right"/>
+    </Row>
+
+    <!-- ABC 12# Fn NUMPAD -->
+    <Row android:rowEdgeFlags="bottom" 
+        android:keyWidth="25%p"
+        android:keyHeight="40dp">
+        <Key
+            android:codes="-1"
+            android:keyLabel="@string/kmk_abc"
+            android:keyEdgeFlags="left"
+            android:isModifier="true" />
+        <Key
+            android:codes="-2"
+            android:keyLabel="@string/kmk_number_punctuation"
+            android:isModifier="true" />
+        <Key
+            android:codes="-3"
+            android:keyLabel="@string/kmk_fn"
+            android:isModifier="true" />
+        <Key
+            android:codes="-4"
+            android:keyLabel="@string/kmk_numpad"
+            android:keyEdgeFlags="right"
+            android:isModifier="true" />
+    </Row>
+	<!-- Hide Keyboard -->
+	<Row android:rowEdgeFlags="bottom" 
+        android:keyWidth="100%p"
+        android:keyHeight="40dp">
+	    <Key
+	        android:codes="-102"
+	        android:keyLabel="@string/kmk_hide_keyboard"
+	        android:isModifier="true" />
+	</Row>
+</Keyboard>
