@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Keyboard Key -->
+    
+    <!-- Mode -->
+    <string name="kmk_abc">ABC</string>
+    <string name="kmk_number_punctuation">12#</string>
+    <string name="kmk_fn">Fn</string>
+    <string name="kmk_numpad">NUMPAD</string>
+    <string name="kmk_media">MEDIA</string>
+    <string name="kmk_hide_keyboard">Hide Keyboard</string>
+    <string name="kmk_show_keyboard">Show Keyboard</string>
+    
+    <!-- Shutdown -->
+    <string name="kk_lock_screen">锁屏</string>
+    <string name="kk_sleep">休眠</string>
+    <string name="kk_restart">重启</string>
+    <string name="kk_shutdown">关机</string>
+    
+    <!-- Ctrl Alt Shift Win-->
+    <string name="kk_lctrl">左Ctrl</string>
+    <string name="kk_lalt">左Alt</string>
+    <string name="kk_lshift">左Shift</string>
+    <string name="kk_lwin">左Win</string>
+
+    
+    <string name="kk_rctrl">右Ctrl</string>
+    <string name="kk_ralt">右Alt</string>
+    <string name="kk_rshift">右Shift</string>
+    <string name="kk_rwin">右Win</string>
+    
+    <string name="kk_ctrl">Ctrl</string>
+    <string name="kk_alt">Alt</string>
+    <string name="kk_shift">Shift</string>
+    <string name="kk_win">Win</string>
+    <string name="kk_apps">菜单</string>
+    
+    <!-- ESC Fn -->
+    <string name="kk_esc">ESC</string>
+    <string name="kk_f1">F1</string>
+    <string name="kk_f2">F2</string>
+    <string name="kk_f3">F3</string>
+    <string name="kk_f4">F4</string>
+    <string name="kk_f5">F5</string>
+    <string name="kk_f6">F6</string>
+    <string name="kk_f7">F7</string>
+    <string name="kk_f8">F8</string>
+    <string name="kk_f9">F9</string>
+    <string name="kk_f10">F10</string>
+    <string name="kk_f11">F11</string>
+    <string name="kk_f12">F12</string>
+    
+    <!-- 0 ~ 9 -->
+    <string name="kk_1">1</string>
+    <string name="kk_2">2</string>
+    <string name="kk_3">3</string>
+    <string name="kk_4">4</string>
+    <string name="kk_5">5</string>
+    <string name="kk_6">6</string>
+    <string name="kk_7">7</string>
+    <string name="kk_8">8</string>
+    <string name="kk_9">9</string>
+    <string name="kk_0">0</string>
+    
+    <!-- qwert -->
+    <string name="kk_q">q</string>
+    <string name="kk_w">w</string>
+    <string name="kk_e">e</string>
+    <string name="kk_r">r</string>
+    <string name="kk_t">t</string>
+    
+    <!-- yuiop -->
+    <string name="kk_y">y</string>
+    <string name="kk_u">u</string>
+    <string name="kk_i">i</string>
+    <string name="kk_o">o</string>
+    <string name="kk_p">p</string>
+    
+    <!-- asdfg -->
+    <string name="kk_a">a</string>
+    <string name="kk_s">s</string>
+    <string name="kk_d">d</string>
+    <string name="kk_f">f</string>
+    <string name="kk_g">g</string>
+    
+    <!-- hjkl -->
+    <string name="kk_h">h</string>
+    <string name="kk_j">j</string>
+    <string name="kk_k">k</string>
+    <string name="kk_l">l</string>
+    
+    <!-- zxcvbnm -->
+    <string name="kk_z">z</string>
+    <string name="kk_x">x</string>
+    <string name="kk_c">c</string>
+    <string name="kk_v">v</string>
+    <string name="kk_b">b</string>
+    <string name="kk_n">n</string>
+    <string name="kk_m">m</string>
+    
+    <!-- QWERT -->
+    <string name="kk_Q">Q</string>
+    <string name="kk_W">W</string>
+    <string name="kk_E">E</string>
+    <string name="kk_R">R</string>
+    <string name="kk_T">T</string>
+    
+    <!-- YUIOP -->
+    <string name="kk_Y">Y</string>
+    <string name="kk_U">U</string>
+    <string name="kk_I">I</string>
+    <string name="kk_O">O</string>
+    <string name="kk_P">P</string>
+    
+    <!-- ASDFG -->
+    <string name="kk_A">A</string>
+    <string name="kk_S">S</string>
+    <string name="kk_D">D</string>
+    <string name="kk_F">F</string>
+    <string name="kk_G">G</string>
+    
+    <!-- HJKL -->
+    <string name="kk_H">H</string>
+    <string name="kk_J">J</string>
+    <string name="kk_K">K</string>
+    <string name="kk_L">L</string>
+    
+    <!-- ZXCVBNM -->
+    <string name="kk_Z">Z</string>
+    <string name="kk_X">X</string>
+    <string name="kk_C">C</string>
+    <string name="kk_V">V</string>
+    <string name="kk_B">B</string>
+    <string name="kk_N">N</string>
+    <string name="kk_M">M</string>
+    
+    <!-- SPACE BACKSPACE-->
+    <string name="kk_space">空格</string>
+    <string name="kk_backspace">退格</string>
+    
+    <!-- Tab Caps Lock Enter -->
+    <string name="kk_tab">Tab</string>
+    <string name="kk_caps_lock">大写锁定</string>
+    <string name="kk_enter">回车</string>
+    
+    <!-- Punctuation -->
+    <string name="kk_exclamation">!</string>
+    <string name="kk_at">\@</string>
+    <string name="kk_sharp">#</string>
+    <string name="kk_dollar">$</string>
+    <string name="kk_percent">%</string>
+    <string name="kk_caret">^</string>
+    <string name="kk_and">&amp;</string>
+    <string name="kk_asterisk">*</string>
+    <string name="kk_left_parentheses">(</string>
+    <string name="kk_right_parentheses">)</string>
+    
+    <!-- `~ -_ =+ [{ ]} \| -->
+    <string name="kk_backquote">`</string>
+    <string name="kk_tilde">~</string>
+    <string name="kk_minus">-</string>
+    <string name="kk_underline">_</string>
+    <string name="kk_equal">=</string>
+    <string name="kk_plus">+</string>
+    <string name="kk_left_square_bracket">[</string>
+    <string name="kk_left_brace">{</string>
+    <string name="kk_right_square_bracket">]</string>
+    <string name="kk_right_brace">}</string>
+    <string name="kk_backslash">\\</string>
+    <string name="kk_vertical_bar">|</string>
+    
+    <!-- ;: '" ,< .> /? -->
+    <string name="kk_semicolon">;</string>
+    <string name="kk_colon">:</string>
+    <string name="kk_single_quote">\'</string>
+    <string name="kk_double_quote">\""</string>
+    <string name="kk_comma">,</string>
+    <string name="kk_less_than">&lt;</string>
+    <string name="kk_period">.</string>
+    <string name="kk_greater_than">&gt;</string>
+    <string name="kk_slash">/</string>
+    <string name="kk_question_mark">\?</string>
+    
+    <!-- PrintScreen ScrollLock PauseBreak NumLock -->
+    <string name="kk_print_screen">Print Screen</string>
+    <string name="kk_scroll_lock">Scroll Lock</string>
+    <string name="kk_pause_break">Pause Break</string>
+    <string name="kk_num_lock">Num Lock</string>
+    
+    <!-- Insert Home Page Up -->
+    <string name="kk_insert">Insert</string>
+    <string name="kk_home">Home</string>
+    <string name="kk_page_up">Page Up</string>
+    
+    <!-- Delete End Page Down -->
+    <string name="kk_delete">Delete</string>
+    <string name="kk_end">End</string>
+    <string name="kk_page_down">Page Down</string>
+    
+    <!-- Left Up Right Down -->
+    <string name="kk_left">←</string>
+    <string name="kk_up">↑</string>
+    <string name="kk_right">→</string>
+    <string name="kk_down">↓</string>
+    
+    <!-- Browser -->
+    <string name="kk_browser_favorites">收藏</string>
+    <string name="kk_browser_search">搜索</string>
+    <string name="kk_browser_stop">停止</string>
+    <string name="kk_browser_home">主页</string>
+    <string name="kk_browser_refresh">刷新</string>
+    <string name="kk_browser_back">后退</string>
+    <string name="kk_browser_forward">前进</string>
+    
+    <!-- Volume -->
+    <string name="kk_volume_mute">静音</string>
+    <string name="kk_volume_down">音量－</string>
+    <string name="kk_volume_up">音量＋</string>
+    
+    <!-- Media -->
+    <string name="kk_media_prev_track">上一首</string>
+    <string name="kk_media_stop">停止</string>
+    <string name="kk_media_play_pause">播放</string>
+    <string name="kk_media_next_track">下一首</string>
+    
+    <!-- Launcher -->
+    <string name="kk_launch_mail">邮件</string>
+    <string name="kk_launch_media_select">播放器</string>
+    <string name="kk_launch_app1">应用1</string>
+    <string name="kk_launch_app2">应用2</string>
+</resources>

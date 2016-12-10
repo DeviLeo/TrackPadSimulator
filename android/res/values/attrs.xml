@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TPKey">
+        <attr name="primary_keycode" format="integer"/>
+        <attr name="secondary_keycode" format="integer"/>
+        <attr name="primary_key" format="string"/>
+        <attr name="secondary_key" format="string"/>
+    </declare-styleable>
+</resources>

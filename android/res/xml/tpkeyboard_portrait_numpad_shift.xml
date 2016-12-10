@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:horizontalGap="0dp"
+    android:verticalGap="0dp"
+    android:keyHeight="50dp"
+    android:keyWidth="25%p" >
+
+    <!-- 
+    	Ctrl Shift Alt Win Backspace
+    	NumLck / * -
+    	7 8 9 +
+    	4 5 6 +
+    	1 2 3 ENTER
+    	 0  . ENTER
+    	ABC 12# Fn MEDIA
+    	Hide Keyboard
+     -->
+    <!-- Ctrl Shift Alt Win Backspace -->
+    <Row android:keyWidth="20%p"
+        android:keyHeight="35dp">
+        <Key android:codes="0xA2"
+            android:keyLabel="@string/kk_ctrl"
+            android:isSticky="true"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key android:codes="0xA4"
+            android:keyLabel="@string/kk_alt"
+            android:isSticky="true"
+            android:isModifier="true" />
+        <Key android:codes="0xA0"
+            android:keyLabel="@string/kk_shift"
+            android:isSticky="true"
+            android:isModifier="true" />
+        <Key android:codes="0x5B"
+            android:keyLabel="@string/kk_win"
+            android:isSticky="true"
+            android:isModifier="true" />
+        <Key android:codes="0x08"
+            android:keyLabel="@string/kk_backspace"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right"/>
+    </Row>
+    
+    <!-- NumLck / * - -->
+    <Row>
+        <Key
+            android:codes="0x90"
+            android:keyLabel="@string/kk_num_lock"
+            android:isSticky="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="0x6F"
+            android:keyLabel="@string/kk_slash"
+            android:isRepeatable="true" />
+        <Key
+            android:codes="0x6A"
+            android:keyLabel="@string/kk_asterisk"
+            android:isRepeatable="true" />
+        <Key
+            android:codes="0x6D"
+            android:keyLabel="@string/kk_minus"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <!-- 7 8 9 + -->
+    <Row>
+        <Key
+            android:codes="0x67"
+            android:keyLabel="@string/kk_7"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="0x68"
+            android:keyLabel="@string/kk_8"
+            android:isRepeatable="true" />
+        <Key
+            android:codes="0x69"
+            android:keyLabel="@string/kk_9"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="right" />
+        <Key
+            android:codes="0x6B"
+            android:keyLabel="@string/kk_plus"
+            android:isRepeatable="true"
+            android:keyHeight="100dp"
+            android:keyEdgeFlags="right" />
+    </Row>
+    <!-- 4 5 6 + -->
+    <Row>
+        <Key
+            android:codes="0x64"
+            android:keyLabel="@string/kk_4"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="0x65"
+            android:keyLabel="@string/kk_5"
+            android:isRepeatable="true" />
+        <Key
+            android:codes="0x66"
+            android:keyLabel="@string/kk_6"
+            android:isRepeatable="true" />
+    </Row>
+
+    <!-- 1 2 3 Enter -->
+    <Row>
+        <Key
+            android:codes="0x61"
+            android:keyLabel="@string/kk_1"
+            android:isRepeatable="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="0x62"
+            android:keyLabel="@string/kk_2"
+            android:isRepeatable="true" />
+        <Key
+            android:codes="0x63"
+            android:keyLabel="@string/kk_3"
+            android:isRepeatable="true" />
+        <Key
+            android:codes="0x0D"
+            android:keyLabel="@string/kk_enter"
+            android:isRepeatable="true"
+            android:keyHeight="100dp"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+    <!-- 0 . ENTER -->
+    <Row>
+        <Key
+            android:codes="0x60"
+            android:keyLabel="@string/kk_0"
+            android:isRepeatable="true"
+            android:keyWidth="50%p"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="0x6E"
+            android:keyLabel="@string/kk_period"
+            android:isRepeatable="true" />
+    </Row>
+    
+    <!-- ABC 12# Fn MEDIA -->
+    <Row android:rowEdgeFlags="bottom"
+        android:keyWidth="25%p"
+        android:keyHeight="40dp"
+        android:horizontalGap="0dp">
+        <Key
+            android:codes="-1"
+            android:keyLabel="@string/kmk_abc"
+            android:isModifier="true"
+            android:keyEdgeFlags="left" />
+        <Key
+            android:codes="-2"
+            android:keyLabel="@string/kmk_number_punctuation"
+            android:isModifier="true" />
+        <Key
+            android:codes="-3"
+            android:keyLabel="@string/kmk_fn"
+            android:isModifier="true" />
+        <Key
+            android:codes="-5"
+            android:keyLabel="@string/kmk_media"
+            android:isModifier="true"
+            android:keyEdgeFlags="right" />
+    </Row>
+    
+	<!-- Hide Keyboard -->
+	<Row android:rowEdgeFlags="bottom" 
+        android:keyWidth="100%p"
+        android:keyHeight="40dp">
+	    <Key
+	        android:codes="-102"
+	        android:keyLabel="@string/kmk_hide_keyboard"
+	        android:isModifier="true" />
+	</Row>
+</Keyboard>
