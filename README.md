@@ -22,8 +22,9 @@ d. Press menu button and select connect("连接").
 e. After connected successfully, you can move your fingers on white view to control windows mouse.  
 
 ### 3. Gesture on TrackPadSimulator  
-(1) Single Tap - Mouse Single Click  
-(2) Double Tap - Mouse Double Click  
+(1) Single Tap - Mouse Left Single Click  
+(2) Double Tap - Mouse Left Double Click  
+(3) Two Fingers Single Tap - Mouse Right Single Click
 (3) Two Fingers Move Vertically - Mouse Scroll Vertically  
 (4) Two Fingers Move Horizontally - Mouse Scroll Horizontally  
 (5) Three Fingers Move - Mouse Single Click Down and Move (Drag Window or Scrollbar or something can be dragged)  
